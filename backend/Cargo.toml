@@ -4,9 +4,6 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-<<<<<<< HEAD
-=======
 actix-web = "4.13.0"
 serde = "1.0.228"
 tokio = "1.49.0"
->>>>>>> 501a1e3 (dependencias, actix, serde, tokio)

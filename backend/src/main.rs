@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-fn main() {
-    println!("Hello, world!");
-}
-=======
 use actix_web::{web, App, HttpResponse, HttpServer};
 
 #[actix_web::main]
@@ -12,4 +7,3 @@ async fn main() -> std::io::Result<()> {
         .run()
         .await
 }
->>>>>>> 501a1e3 (dependencias, actix, serde, tokio)
