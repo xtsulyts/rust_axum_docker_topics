@@ -1,0 +1,47 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Target directory (compiled files)
+/target/
+**/*.rs.bk
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Logs
+*.log
+*.sql
+*.db
+debug/
+
+# Docker related (but keep Dockerfile)
+docker-compose*.yml
+docker-compose*.yaml
+!.dockerignore
+
+# Tests and documentation
+tests/
+docs/
+*.md
+*.txt
+!.dockerignore
+!Dockerfile
+!Cargo.toml
+!Cargo.lock
+!src/
